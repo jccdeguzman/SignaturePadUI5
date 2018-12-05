@@ -1,14 +1,26 @@
 /* Enter your custom styles here */
 
 canvas {
-    background: #fff;
+    
     border: 1px solid #ccc;
+    /*
+    background: #fff;
     width: 400px;
     height: 160px;
+    */
     display: inline;
 }
 
-#canvas-container > div {
+
+.canvas-container {
+	vertical-align: middle;
+}
+
+.canvas-container > div {
 	width: 100%;
     text-align: center;
+}
+
+.main-page > section {
+	display: grid;
 }
