@@ -1,0 +1,14 @@
+/* Enter your custom styles here */
+
+canvas {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 160px;
+    display: inline;
+}
+
+#canvas-container > div {
+	width: 100%;
+    text-align: center;
+}
